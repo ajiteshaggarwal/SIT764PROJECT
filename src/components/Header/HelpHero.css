@@ -1,0 +1,17 @@
+/* Add a blinking animation */
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the header */
+  .blinking-header {
+    animation: blink 3s linear infinite;
+  }

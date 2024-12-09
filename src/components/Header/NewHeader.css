@@ -1,0 +1,16 @@
+.blinking-text {
+    font-size: clamp(3rem, 8vw, 4rem);
+    color: #007aff;
+    animation: blink 1.5s infinite step-start;
+    text-align: center;
+  }
+  
+  /* Blink animation */
+  @keyframes blink {
+    0%, 50%, 100% {
+      opacity: 1;
+    }
+    25%, 75% {
+      opacity: 0;
+    }
+  }
